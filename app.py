@@ -3,7 +3,7 @@ import pandas as pd
 from fuzzywuzzy import process
 
 # Load the CSV file containing issues and solutions
-file_path = 'data(1).csv'
+file_path = 'data.csv'
 data = pd.read_csv(file_path)
 
 # Define the fuzzy matching search function
